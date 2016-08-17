@@ -41,6 +41,6 @@ nnoremap <leader>l :set hlsearch!<CR>
 
 cmap w!! w !sudo tee % >/dev/null
 
-command Q quit
-command W write
+command! Q quit
+command! W write
 
