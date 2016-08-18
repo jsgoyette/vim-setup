@@ -13,3 +13,5 @@ command! TrimWhiteSpace call TrimWhiteSpace()
 " autocmd BufWritePre * if &ft!~?'go'|:call TrimWhiteSpace()
 autocmd BufWritePre * :call TrimWhiteSpace()
 
+" remove trailing empty lines
+autocmd BufWritePre * :v/\_s*\S/d
