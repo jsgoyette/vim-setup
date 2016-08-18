@@ -5,13 +5,18 @@ fun! TrimWhiteSpace()
 	call setpos('.', l:save_cursor)
 endfun
 
-"command -bar -nargs=? TrimWhiteSpace call TrimWhiteSpace(<args>)
+" trim trailing empty lines at the end of the file
+fun! TrimTrailingLines()
+	let l:save_cursor = getpos('.')
+	%v/\_s*\S/d
+	call setpos('.', l:save_cursor)
+endfun
+
 command! TrimWhiteSpace call TrimWhiteSpace()
+command! TrimTrailingLines call TrimTrailingLines()
 
 " strip trailing space on save
-" skip running for go since gofmt already trims space
-" autocmd BufWritePre * if &ft!~?'go'|:call TrimWhiteSpace()
 autocmd BufWritePre * :call TrimWhiteSpace()
 
-" remove trailing empty lines
-autocmd BufWritePre * :v/\_s*\S/d
+" remove trailing empty lines on save
+autocmd BufWritePre * :call TrimTrailingLines()
