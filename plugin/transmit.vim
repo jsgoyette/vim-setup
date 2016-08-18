@@ -1,7 +1,6 @@
-function! Transmit()
+fun! Transmit()
 	edit ~/Library/Caches/Cleanup\ At\ Startup/
 	normal 5jO
-endfunction
+endfun
 
 command! Transmit call Transmit()
-
