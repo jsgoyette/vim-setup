@@ -31,6 +31,7 @@ vnoremap <leader>j :m'>+1<CR>gv
 "===============================================================================
 
 nnoremap <leader>b :bn<CR>
+nnoremap <leader>v :bp<CR>
 nnoremap <leader>dd :bd<CR>
 nnoremap <leader>t :TagbarToggle<CR>
 nnoremap <leader>l :set hlsearch!<CR>
