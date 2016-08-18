@@ -24,4 +24,3 @@ nnoremap <leader>9 :colorscheme neverland2-darker<cr>
 nnoremap <leader>0 :colorscheme beekai<cr>
 
 " set background=dark
-

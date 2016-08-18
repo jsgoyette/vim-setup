@@ -44,4 +44,3 @@ try
   lang en_us
 catch
 endtry
-

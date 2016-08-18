@@ -44,4 +44,3 @@ cmap w!! w !sudo tee % >/dev/null
 
 command! Q quit
 command! W write
-

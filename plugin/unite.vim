@@ -18,4 +18,3 @@ if executable('ag')
     \ '--ignore ''.git'' --ignore ''.meteor'' --ignore ''node_modules'''
   let g:unite_source_grep_recursive_opt = ''
 endif
-
