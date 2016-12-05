@@ -1,5 +1,6 @@
 " unite
 nnoremap <space>f :Unite file_rec/async<cr>
+nnoremap <space>d :Unite file<cr>
 nnoremap <space>/ :Unite grep:.<cr>
 nnoremap <space>s :Unite -quick-match buffer<cr>
 
