@@ -21,3 +21,5 @@ function SetGPGOptions()
 	" Only open folds with insert commands.
     set foldopen=insert
 endfunction
+
+nnoremap <leader>q :r!pwgen -yc1 22<CR>
