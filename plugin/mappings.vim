@@ -25,6 +25,7 @@ nnoremap <down>  <nop>
 
 vnoremap <leader>k :m-2<CR>gv
 vnoremap <leader>j :m'>+1<CR>gv
+vnoremap // y/<C-R>"<CR>
 
 "===============================================================================
 "" Normal Mode Meta/Alt Key Mappings
