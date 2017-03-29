@@ -44,3 +44,5 @@ try
   lang en_us
 catch
 endtry
+
+autocmd Filetype php setlocal ts=4 sts=4 sw=4
