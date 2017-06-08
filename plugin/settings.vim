@@ -2,7 +2,6 @@ syntax on
 filetype plugin indent on
 set nocompatible
 
-set visualbell
 set encoding=utf-8
 set noswapfile
 set confirm
