@@ -36,6 +36,8 @@ nnoremap <leader>v :bp<CR>
 nnoremap <leader>dd :bd<CR>
 nnoremap <leader>t :TagbarToggle<CR>
 nnoremap <leader>l :set hlsearch!<CR>
+nnoremap <leader>w "+yw<CR>
+nnoremap <leader>W "+yW<CR>
 
 "===============================================================================
 "" Commands
