@@ -11,7 +11,7 @@ augroup GnuPGExtra
     autocmd CursorHold *.\(gpg\|asc\|pgp\) quit
 augroup END
 
-function SetGPGOptions()
+function! SetGPGOptions()
 	" Set updatetime to 1 minute.
     set updatetime=300000
 	" Fold at markers.
