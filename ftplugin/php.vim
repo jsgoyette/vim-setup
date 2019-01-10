@@ -5,6 +5,6 @@
 
 setlocal expandtab ts=4 sw=4 ai
 
-autocmd BufWritePost * %retab <afile>
+"autocmd BufWritePost * %retab <afile>
 
 "colorscheme c
