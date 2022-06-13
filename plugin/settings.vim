@@ -44,6 +44,9 @@ endtry
 command! Q quit
 command! W write
 
+" disable Ex mode key
+map Q <ESC>
+
 " gitgutter
 set updatetime=500
 let g:gitgutter_sign_column_always = 1
@@ -71,3 +74,4 @@ augroup END
 " fzf
 nnoremap <silent> <C-f> :Files<CR>
 nnoremap <silent> <Leader>f :Rg<CR>
+"set rtp+=/usr/local/opt/fzf
