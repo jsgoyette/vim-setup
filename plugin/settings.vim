@@ -75,3 +75,6 @@ augroup END
 nnoremap <silent> <C-f> :Files<CR>
 nnoremap <silent> <Leader>f :Rg<CR>
 "set rtp+=/usr/local/opt/fzf
+
+let g:go_fmt_command="gopls"
+let g:go_gopls_gofumpt=1
